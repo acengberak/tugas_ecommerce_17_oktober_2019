@@ -1,3 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
 * {
     padding: 0;
+}
+
+body {
+    font-family: "Monserrat", sans-serif;
+}
+
+/* Navbar */
+
+.container .navbar a {
+    color: #FF5E0E;
+    font-weight: bold;
+}
+
+
+.nav a {
+    color: grey
+}
+
+.carousel-caption {
+    position: absolute;
+    text-align: justify;
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-weight: bold;
+}
+
+
+/* section 1 */
+
+.text-center h1 {
+    color: #FF5E0E;
+    font-weight: bold;
+    font-family: "montserrat";
+    font-size: 1rem;
+}
+
+.poster {
+    position: absolute;
+    z-index: -1;
+    left: -20em;
+    top: 1rem;
+}
+
+
+/* section -1 */
+
+.section-1 .container .row .col-sm-3 .card .card-body h5 {
+    color: #FF5E0E;
+    font-weight: bold;
+    font-family: "montserrat";
+
+}
+
+.carousel-inner .row .col-4 h5 {
+    color: #FF5E0E;
+    font-weight: bold;
+    font-family: "montserrat";
+
+}
+
+footer .container-fluid {
+    background-color: #FF5E0E;
+    margin-top: 10vmin;
+}
+
+footer .container-fluid p {
+    font-family: "monsterrat";
+    font-size: 1.2rem;
+    color: white;
 }

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 375px) {
+    .poster {
+        width: 95%;
+        position: relative;
+        left: 1vmin;
+        top: 2vmin;
+        z-index: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .carousel-item .
+}
